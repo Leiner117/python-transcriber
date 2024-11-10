@@ -2,7 +2,6 @@ import os
 import whisper
 
 audio_file_path = 'docu21.mp3'
-print(os.path.exists(audio_file_path))
 model = whisper.load_model("base")
 def transcribe_audio(audio_path):
     try:
